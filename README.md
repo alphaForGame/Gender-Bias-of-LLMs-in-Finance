@@ -2,7 +2,7 @@
 	1.	其中 results 包含了论文所有运行的研究数据，可以直接使用 plot.ipynb 进行图表制作。
 	2.	bert_full.ipynb 是运行 BERT 系列模型的 notebook，把 model_configs 参数换成需要测试的 BERT 系列模型。
 	3.	llama.ipynb 是运行 LLaMA 系列模型的 notebook，把 model_configs 参数换成需要测试的 LLaMA 系列模型。
-	4.	7B-8B LLMs 建议使用 248G 以上 GPU 运行，70B 建议使用 448G 以上 GPU 运行，BERT 系统可以在一般性能电脑上运行。
+	4.	7B-8B LLMs 建议使用 2*48G 以上 GPU 运行，70B 建议使用 4*48G 以上 GPU 运行，BERT 系统可以在一般性能电脑上运行。
 
 ## 测试模型列表
 
